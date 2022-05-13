@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retrofit Practice"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/posts"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="180dp"
+        android:gravity="center"
+        android:text="Posts"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/comments"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/posts"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="80dp"
+        android:text="Comments"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/photos"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/comments"
+        android:gravity="center"
+        android:layout_marginStart="80dp"
+        android:text="Photos"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/todos"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/photos"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="80dp"
+        android:text="Todos"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/users"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/todos"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Users"
+        android:textStyle="bold" />
+
+</RelativeLayout>
